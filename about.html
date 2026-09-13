@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Page Title</title>
-        </head>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
     <body>
 
-        <h1>My First Heading</h1>
-        <p>My first paragraph.</p>
+        <header>
+            <h1>About Me:</h1>
+        </header>
 
+        <main>
+            <h2>Who am I?</h2>
+            <p>
+                My name is Justin Adrian M. Cayabyab, and I am currently taking up
+                BSIT. Outside of school,
+                I'm into video games, anime, motorcycles, history, and guns. When I'm not
+                studying, you'll usually find me playing airsoft, playing guitar, drawing, or
+                training in martial arts. For martial arts, I like doing Jiu Jitsu and Muay Thai.
+            </p>
+            <p>
+                You can learn more about that here:
+                <li><a href="https://en.wikipedia.org/wiki/Airsoft">Airsoft on Wikipedia</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu">Brazilian jiu-jitsu on Wikipedia</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Muay_Thai">Muay Thai on Wikipedia</a></li>
+            </p>
+
+            <h2>Some Videos I Enjoy watching!</h2>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/g9rMTlJNcIQ" title="Video 1"></iframe>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/lZOH8e0yBpI?start=20" title="Video 2"></iframe>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/6pQ0Ir5HmDw?start=4756" title="Video 3"></iframe>
+
+            <p>
+                Which of my hobbies interests you most?<br>
+                <input type="radio" id="hobby1" name="hobby" value="airsoft">
+                <label for="hobby1">Airsoft</label><br>
+                <input type="radio" id="hobby2" name="hobby" value="guitar">
+                <label for="hobby2">Guitar</label><br>
+                <input type="radio" id="hobby3" name="hobby" value="martial-arts">
+                <label for="hobby3">Martial Arts</label>
+            </p>
+
+            <p>
+                Which topics do you also like? (check all that apply)<br>
+                <input type="checkbox" id="interest1" name="interest" value="video-games">
+                <label for="interest1">Video Games</label><br>
+                <input type="checkbox" id="interest2" name="interest" value="anime">
+                <label for="interest2">Anime</label><br>
+                <input type="checkbox" id="interest3" name="interest" value="history">
+                <label for="interest3">History</label>
+            </p>
+
+            <p>
+                <label for="genre">What's your favorite video game genre:</label><br>
+                <select id="genre" name="genre">
+                    <option value="fps">FPS</option>
+                    <option value="rpg">RPG</option>
+                    <option value="strategy">Strategy</option>
+                    <option value="sports">Sports</option>
+                </select>
+            </p>
+
+            <p><a href="index.html">Back to Home Page</a></p>
+        </main>
     </body>
 </html>
